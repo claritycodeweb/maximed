@@ -38,7 +38,7 @@ function LanguageSync() {
 
 export default function App() {
   return (
-    <>
+    <div className="grain">
       <ScrollToTop />
       <LanguageSync />
       <a className="skip-link" href="#main">
@@ -64,6 +64,6 @@ export default function App() {
         </Suspense>
       </main>
       <Footer />
-    </>
+    </div>
   )
 }

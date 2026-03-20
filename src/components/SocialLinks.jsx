@@ -21,9 +21,9 @@ const socials = [
   },
 ]
 
-export default function SocialLinks() {
+export default function SocialLinks({ dark }) {
   return (
-    <div aria-label="Social links" className="flex items-center gap-4 flex-wrap">
+    <div aria-label="Social links" className="flex items-center gap-3 flex-wrap">
       {socials.map(({ label, href, icon }) => (
         <a
           key={label}
@@ -31,9 +31,13 @@ export default function SocialLinks() {
           href={href}
           rel="noopener noreferrer"
           target="_blank"
-          className="inline-flex items-center justify-center w-9 h-9 border border-line rounded-full bg-surface text-muted hover:text-text no-underline"
+          className={`inline-flex items-center justify-center w-10 h-10 rounded-full no-underline transition-all duration-300 ${
+            dark
+              ? 'border border-dark-line text-white/50 hover:text-accent-light hover:border-accent/40'
+              : 'border border-line text-muted hover:text-accent hover:border-accent/40 hover:shadow-[0_0_16px_rgba(158,124,91,.1)]'
+          }`}
         >
-          <svg aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" className="w-4 h-4">
+          <svg aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" className="w-[15px] h-[15px]">
             <path d={icon} />
           </svg>
         </a>
