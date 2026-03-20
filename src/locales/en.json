@@ -1,0 +1,213 @@
+{
+  "lang": "en-GB",
+  "locale": "en_GB",
+  "siteUrl": "https://www.danibert.ch",
+  "skipLink": "Skip to content",
+  "nav": {
+    "about": "About",
+    "advisory": "Advisory",
+    "activities": "Current activities",
+    "mentions": "Selected mentions",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Lausanne, Switzerland",
+    "name": "Maxime Danibert",
+    "subtitle": "Founder, entrepreneur and advisor",
+    "intro1": "I advise early-stage companies across real estate, data and technology.",
+    "intro2": "My work is grounded in operating experience, long-term perspective and a strong network built in Switzerland since 2008.",
+    "cta": "Feel free to get in touch"
+  },
+  "about": {
+    "title": "About",
+    "p1": "I am a French entrepreneur based in Lausanne. Over the years, I have built and operated businesses in real estate, data, media and technology, always with a practical focus on execution, market transparency and useful products.",
+    "p2": "I am particularly interested in helping founders and small teams think more clearly, move faster and avoid mistakes that cost time, money and energy.",
+    "p3": "I enjoy discussing new ideas, business models, product positioning, go-to-market challenges and the rapid evolution of technology and AI."
+  },
+  "advisory": {
+    "title": "Advisory",
+    "subtitle": "I generally help on topics such as:",
+    "items": [
+      "strategy and positioning",
+      "product thinking",
+      "data and market intelligence",
+      "fundraising preparation",
+      "commercial clarity",
+      "founder decision-making",
+      "avoiding common early-stage mistakes"
+    ]
+  },
+  "approach": {
+    "title": "Approach",
+    "p1": "My approach is direct, pragmatic and discreet.",
+    "p2": "I do not believe in generic frameworks or unnecessary complexity.",
+    "p3": "Useful advice should be grounded in real operating experience, clear thinking and honest conversations."
+  },
+  "network": {
+    "title": "Network and domains",
+    "intro": "My network and experience are mainly centred around:",
+    "domains": [
+      "real estate",
+      "data and digital platforms",
+      "technology",
+      "investors and entrepreneurial ecosystems",
+      "Switzerland"
+    ]
+  },
+  "activities": {
+    "title": "Current activities"
+  },
+  "mentions": {
+    "title": "Selected mentions",
+    "intro": "A selection of public articles, interviews and references related to Maxime Danibert, Lookmove and Concierge Maps, ordered by date, most recent first.",
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "If you are working on an early-stage project, exploring a new idea, or simply wish to exchange views, feel free to get in touch.",
+    "formTitle": "Get in touch",
+    "fullName": "Full name",
+    "email": "Email",
+    "company": "Company",
+    "companyPlaceholder": "Company",
+    "message": "Message",
+    "fullNamePlaceholder": "Your full name",
+    "emailPlaceholder": "your@email.com",
+    "messagePlaceholder": "Your message",
+    "consent": "I accept the <terms>Terms and Conditions</terms> and the <privacy>Privacy Policy</privacy>.",
+    "send": "Send",
+    "required": "All required fields must be completed.",
+    "sending": "Sending…",
+    "success": "Message sent successfully.",
+    "error": "The message could not be sent. Please try again later."
+  },
+  "footer": {
+    "copy": "DANIBERT © 2026",
+    "address": "Avenue de Tivoli 26, 1007 Lausanne, Switzerland",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Policy"
+  },
+  "privacyPolicy": {
+    "pageTitle": "Privacy Policy | DANIBERT",
+    "pageDescription": "Privacy Policy for the DANIBERT website.",
+    "title": "Privacy Policy",
+    "controller": "Data controller: Maxime Danibert, Avenue de Tivoli 26, 1007 Lausanne, Switzerland.",
+    "sections": [
+      {
+        "heading": "1. scope",
+        "content": "<p>This Privacy Policy explains how personal data are processed in connection with this website.</p><p>The website is intended to provide professional information and a contact channel.</p>"
+      },
+      {
+        "heading": "2. categories of personal data",
+        "content": "<p>The website may process the following categories of personal data:</p><ul><li>identification data, such as your name</li><li>contact data, such as your email address</li><li>professional data you choose to provide, such as company name</li><li>message content submitted through the contact form</li><li>technical data generated when you access the website, such as IP address, browser type, device information, date and time of access, and basic server logs</li></ul>"
+      },
+      {
+        "heading": "3. purposes of processing",
+        "content": "<p>Personal data may be processed for the following purposes:</p><ul><li>to operate and secure the website</li><li>to receive, review and respond to enquiries</li><li>to prevent spam, abuse and fraudulent use</li><li>to protect legal interests and enforce rights</li><li>to maintain basic technical logs, security and system integrity</li></ul>"
+      },
+      {
+        "heading": "4. legal basis",
+        "content": "<p>Where GDPR applies, processing is based, depending on the case, on one or more of the following grounds:</p><ul><li>your consent</li><li>steps taken at your request before a potential contractual relationship</li><li>legitimate interests in operating a secure and functional professional website and handling relevant enquiries</li><li>compliance with legal obligations, where applicable</li></ul><p>Under Swiss data protection law, personal data are processed in accordance with the applicable principles of lawfulness, good faith, proportionality, purpose limitation, transparency and data security.</p>"
+      },
+      {
+        "heading": "5. contact form",
+        "content": "<p>If you submit the contact form, the information you provide is used solely to assess and answer your message and, where relevant, continue the related exchange.</p><p>Providing the requested data is voluntary. However, mandatory fields are required in order to process your message.</p>"
+      },
+      {
+        "heading": "6. recipients and processors",
+        "content": "<p>Personal data may be disclosed only to service providers and technical processors strictly necessary for hosting, security, maintenance and communication, and only to the extent necessary for those purposes.</p><p>Personal data may also be disclosed where required by law, regulation, court order or legitimate legal process.</p><p>No sale of personal data takes place.</p>"
+      },
+      {
+        "heading": "7. international transfers",
+        "content": "<p>If service providers process data outside Switzerland or the European Economic Area, reasonable steps should be taken to ensure an adequate level of protection, including contractual safeguards where required.</p>"
+      },
+      {
+        "heading": "8. retention",
+        "content": "<p>Personal data are retained only for as long as reasonably necessary for the purposes described above, including replying to enquiries, maintaining security records, complying with legal obligations, or establishing, exercising or defending legal claims.</p><p>Messages that do not lead to any relevant follow-up may be deleted after a reasonable period.</p>"
+      },
+      {
+        "heading": "9. security",
+        "content": "<p>Appropriate technical and organisational measures should be used to protect personal data against unauthorised access, loss, misuse, alteration or disclosure.</p><p>However, no internet transmission or storage system can be guaranteed to be completely secure.</p>"
+      },
+      {
+        "heading": "10. cookies and similar technologies",
+        "content": "<p>This website is intended to operate with limited cookies and without unnecessary tracking.</p><p>If analytics, embedded third-party services, advertising technologies or additional cookies are implemented later, this Privacy Policy and any related consent mechanisms should be updated accordingly.</p>"
+      },
+      {
+        "heading": "11. external links and social media",
+        "content": "<p>This website contains links to third-party websites and social media platforms. When you open those links, the data protection rules of the relevant third party apply.</p>"
+      },
+      {
+        "heading": "12. your rights",
+        "content": "<p>Subject to applicable law and the conditions of each regime, you may have the right to request access to your personal data, rectification of inaccurate data, deletion, restriction, objection, and, where applicable, data portability.</p><p>Where processing is based on consent, you may withdraw that consent for the future.</p><p>You may also have the right to lodge a complaint with a competent supervisory authority, including, where relevant, the Swiss Federal Data Protection and Information Commissioner.</p>"
+      },
+      {
+        "heading": "13. updates",
+        "content": "<p>This Privacy Policy may be updated from time to time. The version published on the website at the time of consultation shall apply.</p>"
+      },
+      {
+        "heading": "14. contact",
+        "content": "<p>For privacy-related requests concerning this website, please use the contact form available on the <a href=\"/#contact\">website</a>.</p>"
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "pageTitle": "Terms and Conditions | DANIBERT",
+    "pageDescription": "Terms and Conditions for the DANIBERT website.",
+    "title": "Terms and Conditions",
+    "operator": "This website is operated by Maxime Danibert, Avenue de Tivoli 26, 1007 Lausanne, Switzerland.",
+    "sections": [
+      {
+        "heading": "1. purpose of the website",
+        "content": "<p>This website provides general information about the professional background, current activities and advisory services of Maxime Danibert.</p><p>The content is published for information purposes only. Nothing on this website constitutes legal, financial, tax, investment or other regulated advice.</p>"
+      },
+      {
+        "heading": "2. no contractual relationship",
+        "content": "<p>Using this website, sending a message through the contact form, or viewing any content on the website does not create a contractual, fiduciary, advisory or professional relationship.</p><p>Any engagement, if any, is subject only to a separate written agreement.</p>"
+      },
+      {
+        "heading": "3. no offer",
+        "content": "<p>Nothing on this website constitutes an offer, solicitation or commitment to provide services.</p><p>Any description of experience, activities or areas of interest is illustrative only.</p>"
+      },
+      {
+        "heading": "4. accuracy of information",
+        "content": "<p>Reasonable care is taken to keep the website content accurate and up to date. However, no representation or warranty, express or implied, is given as to completeness, accuracy, reliability or suitability of the content.</p><p>The operator may update, modify or remove content at any time without notice.</p>"
+      },
+      {
+        "heading": "5. external links",
+        "content": "<p>This website may contain links to third-party websites, publications, platforms or social media pages. These links are provided for convenience only.</p><p>The operator does not control third-party content and accepts no responsibility or liability for its availability, accuracy, legality or data protection practices.</p>"
+      },
+      {
+        "heading": "6. intellectual property",
+        "content": "<p>Unless stated otherwise, all content on this website, including text, structure, wording, branding elements and original materials, is protected by applicable intellectual property laws.</p><p>No reproduction, republication, adaptation, distribution or commercial use is permitted without prior written consent, except where mandatory law allows otherwise.</p><p>DANIBERT © 2026. All rights reserved.</p>"
+      },
+      {
+        "heading": "7. acceptable use",
+        "content": "<p>Users must not misuse the website, attempt to interfere with its operation, submit unlawful content through the contact form, or use the website for spam, scraping, fraudulent or abusive purposes.</p>"
+      },
+      {
+        "heading": "8. limitation of liability",
+        "content": "<p>To the fullest extent permitted by applicable law, the operator excludes liability for direct, indirect, incidental, consequential or special damages arising from or in connection with the use of, or inability to use, this website.</p><p>This includes, without limitation, interruptions, technical errors, malware, reliance on content, or third-party links.</p><p>Nothing in these Terms excludes liability where exclusion is not permitted under mandatory law.</p>"
+      },
+      {
+        "heading": "9. privacy and data protection",
+        "content": "<p>Personal data submitted through the website are processed in accordance with the <a href=\"/privacy-policy\">Privacy Policy</a> published on this website.</p>"
+      },
+      {
+        "heading": "10. applicable law and jurisdiction",
+        "content": "<p>These Terms and any dispute connected with this website are governed by substantive Swiss law, excluding conflict-of-law rules.</p><p>Subject to mandatory legal provisions, the courts of Lausanne, Vaud, Switzerland shall have exclusive jurisdiction.</p>"
+      },
+      {
+        "heading": "11. changes",
+        "content": "<p>The operator may amend these Terms at any time. The version published on the website at the time of use shall apply.</p>"
+      }
+    ]
+  },
+  "meta": {
+    "home": {
+      "title": "Maxime Danibert | advisory",
+      "description": "Founder and advisor based in Lausanne. Supporting early-stage companies in real estate, data and technology."
+    }
+  }
+}

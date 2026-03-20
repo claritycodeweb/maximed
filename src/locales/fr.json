@@ -1,0 +1,213 @@
+{
+  "lang": "fr-CH",
+  "locale": "fr_CH",
+  "siteUrl": "https://www.danibert.ch",
+  "skipLink": "Aller au contenu",
+  "nav": {
+    "about": "À propos",
+    "advisory": "Advisory",
+    "activities": "Activités actuelles",
+    "mentions": "Mentions",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Lausanne, Suisse",
+    "name": "Maxime Danibert",
+    "subtitle": "Fondateur, entrepreneur et advisor",
+    "intro1": "J'accompagne des entreprises early-stage dans les domaines de l'immobilier, de la data et de la technologie.",
+    "intro2": "Mon approche repose sur l'expérience opérationnelle, une vision long terme et un réseau construit en Suisse depuis 2008.",
+    "cta": "N'hésitez pas à me contacter"
+  },
+  "about": {
+    "title": "À propos",
+    "p1": "Entrepreneur français basé à Lausanne, j'ai créé et développé au fil des années plusieurs activités dans l'immobilier, la data, les médias et la technologie, avec un intérêt constant pour l'exécution, la transparence du marché et les produits réellement utiles.",
+    "p2": "J'aime aider les fondateurs et les petites équipes à penser plus clairement, avancer plus vite et éviter les erreurs qui coûtent du temps, de l'argent et de l'énergie.",
+    "p3": "J'apprécie particulièrement les échanges autour des nouvelles idées, des modèles économiques, du positionnement produit, des enjeux go-to-market, ainsi que de l'évolution très rapide de la technologie et de l'IA."
+  },
+  "advisory": {
+    "title": "Advisory",
+    "subtitle": "J'interviens le plus souvent sur des sujets comme :",
+    "items": [
+      "stratégie et positionnement",
+      "réflexion produit",
+      "data et intelligence marché",
+      "préparation à la levée de fonds",
+      "clarté commerciale",
+      "prise de décision du fondateur",
+      "évitement des erreurs classiques en phase early-stage"
+    ]
+  },
+  "approach": {
+    "title": "Approche",
+    "p1": "Mon approche est directe, pragmatique et discrète.",
+    "p2": "Je ne crois ni aux frameworks génériques ni à la complexité inutile.",
+    "p3": "Un conseil utile doit être fondé sur une vraie expérience opérationnelle, une pensée claire et des échanges honnêtes."
+  },
+  "network": {
+    "title": "Réseau et domaines",
+    "intro": "Mon réseau et mon expérience se situent principalement autour de :",
+    "domains": [
+      "immobilier",
+      "data et plateformes digitales",
+      "technologie",
+      "investisseurs et écosystèmes entrepreneuriaux",
+      "Suisse"
+    ]
+  },
+  "activities": {
+    "title": "Activités actuelles"
+  },
+  "mentions": {
+    "title": "Mentions",
+    "intro": "Une sélection d'articles, d'interviews et de références publiques liés à Maxime Danibert, Lookmove et Concierge Maps, classés par date, du plus récent au plus ancien.",
+    "showMore": "Voir plus",
+    "showLess": "Voir moins"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Si vous travaillez sur un projet early-stage, explorez une nouvelle idée ou souhaitez simplement échanger, n'hésitez pas à me contacter.",
+    "formTitle": "Me contacter",
+    "fullName": "Nom complet",
+    "email": "Email",
+    "company": "Société",
+    "companyPlaceholder": "Société",
+    "message": "Message",
+    "fullNamePlaceholder": "Votre nom complet",
+    "emailPlaceholder": "votre@email.com",
+    "messagePlaceholder": "Votre message",
+    "consent": "J'accepte les <terms>Conditions générales</terms> et la <privacy>Politique de confidentialité</privacy>.",
+    "send": "Envoyer",
+    "required": "Tous les champs obligatoires doivent être remplis.",
+    "sending": "Envoi en cours…",
+    "success": "Message envoyé avec succès.",
+    "error": "Le message n'a pas pu être envoyé. Veuillez réessayer plus tard."
+  },
+  "footer": {
+    "copy": "DANIBERT © 2026",
+    "address": "Avenue de Tivoli 26, 1007 Lausanne, Suisse",
+    "terms": "Conditions générales",
+    "privacy": "Politique de confidentialité"
+  },
+  "privacyPolicy": {
+    "pageTitle": "Politique de confidentialité | DANIBERT",
+    "pageDescription": "Politique de confidentialité du site DANIBERT.",
+    "title": "Politique de confidentialité",
+    "controller": "Responsable du traitement: Maxime Danibert, Avenue de Tivoli 26, 1007 Lausanne, Suisse.",
+    "sections": [
+      {
+        "heading": "1. champ d'application",
+        "content": "<p>La présente Politique de confidentialité explique la manière dont des données personnelles sont traitées dans le cadre de ce site internet.</p><p>Le site a pour objet de présenter des informations professionnelles et d'offrir un canal de contact.</p>"
+      },
+      {
+        "heading": "2. catégories de données traitées",
+        "content": "<p>Le site peut traiter les catégories de données personnelles suivantes :</p><ul><li>données d'identification, telles que votre nom</li><li>données de contact, telles que votre adresse email</li><li>données professionnelles que vous choisissez de fournir, comme le nom de votre société</li><li>contenu du message transmis via le formulaire de contact</li><li>données techniques générées lors de l'accès au site, telles que l'adresse IP, le type de navigateur, les informations sur l'appareil, la date et l'heure d'accès, ainsi que des journaux techniques de base</li></ul>"
+      },
+      {
+        "heading": "3. finalités du traitement",
+        "content": "<p>Les données personnelles peuvent être traitées pour les finalités suivantes :</p><ul><li>exploiter et sécuriser le site</li><li>recevoir, examiner et traiter les demandes de contact</li><li>prévenir le spam, les abus et les usages frauduleux</li><li>protéger des intérêts juridiques et faire valoir des droits</li><li>maintenir des journaux techniques de base, la sécurité et l'intégrité du système</li></ul>"
+      },
+      {
+        "heading": "4. base du traitement",
+        "content": "<p>Lorsque le RGPD s'applique, le traitement repose, selon les cas, sur une ou plusieurs des bases suivantes :</p><ul><li>votre consentement</li><li>des démarches précontractuelles à votre demande</li><li>des intérêts légitimes liés à l'exploitation d'un site professionnel sûr et fonctionnel et à la gestion des prises de contact pertinentes</li><li>le respect d'obligations légales, le cas échéant</li></ul><p>Au regard du droit suisse de la protection des données, les données personnelles sont traitées conformément aux principes applicables de licéité, de bonne foi, de proportionnalité, de finalité, de transparence et de sécurité.</p>"
+      },
+      {
+        "heading": "5. formulaire de contact",
+        "content": "<p>Si vous utilisez le formulaire de contact, les informations que vous fournissez sont utilisées uniquement afin d'évaluer et de traiter votre message et, le cas échéant, de poursuivre l'échange correspondant.</p><p>La communication des données demandées est volontaire. Toutefois, les champs obligatoires sont nécessaires afin de pouvoir traiter votre message.</p>"
+      },
+      {
+        "heading": "6. destinataires et sous-traitants",
+        "content": "<p>Les données personnelles ne peuvent être transmises qu'aux prestataires et sous-traitants techniques strictement nécessaires à l'hébergement, à la sécurité, à la maintenance et à la communication, et uniquement dans la mesure requise pour ces finalités.</p><p>Les données personnelles peuvent également être communiquées si la loi, une réglementation, une décision judiciaire ou une procédure légale l'exige.</p><p>Aucune vente de données personnelles n'est effectuée.</p>"
+      },
+      {
+        "heading": "7. transferts internationaux",
+        "content": "<p>Si des prestataires traitent des données en dehors de la Suisse ou de l'Espace économique européen, des mesures raisonnables doivent être prises afin d'assurer un niveau de protection adéquat, notamment des garanties contractuelles lorsque cela est requis.</p>"
+      },
+      {
+        "heading": "8. durée de conservation",
+        "content": "<p>Les données personnelles sont conservées uniquement pendant la durée raisonnablement nécessaire aux finalités décrites ci-dessus, notamment pour répondre aux demandes, maintenir les enregistrements de sécurité, respecter des obligations légales, ou constater, exercer ou défendre des droits.</p><p>Les messages ne donnant lieu à aucun suivi pertinent peuvent être supprimés après un délai raisonnable.</p>"
+      },
+      {
+        "heading": "9. sécurité",
+        "content": "<p>Des mesures techniques et organisationnelles appropriées doivent être mises en place afin de protéger les données personnelles contre l'accès non autorisé, la perte, l'usage abusif, l'altération ou la divulgation.</p><p>Aucune transmission internet ni aucun système de stockage ne peut toutefois être garanti comme totalement sécurisé.</p>"
+      },
+      {
+        "heading": "10. cookies et technologies similaires",
+        "content": "<p>Le site a vocation à fonctionner avec un usage limité de cookies et sans suivi inutile.</p><p>Si des outils d'analyse, des services tiers intégrés, des technologies publicitaires ou d'autres cookies sont ajoutés ultérieurement, la présente Politique de confidentialité ainsi que, le cas échéant, les mécanismes de consentement associés devront être mis à jour.</p>"
+      },
+      {
+        "heading": "11. liens externes et réseaux sociaux",
+        "content": "<p>Le site contient des liens vers des sites et plateformes de réseaux sociaux tiers. Lorsque vous ouvrez ces liens, les règles de protection des données du tiers concerné s'appliquent.</p>"
+      },
+      {
+        "heading": "12. vos droits",
+        "content": "<p>Sous réserve du droit applicable et des conditions propres à chaque régime, vous pouvez disposer d'un droit d'accès à vos données personnelles, d'un droit de rectification des données inexactes, d'un droit à l'effacement, d'un droit à la limitation, d'un droit d'opposition et, le cas échéant, d'un droit à la portabilité.</p><p>Lorsque le traitement repose sur le consentement, vous pouvez retirer ce consentement pour l'avenir.</p><p>Vous pouvez également avoir le droit d'introduire une réclamation auprès d'une autorité de contrôle compétente, notamment, le cas échéant, auprès du Préposé fédéral à la protection des données et à la transparence.</p>"
+      },
+      {
+        "heading": "13. mises à jour",
+        "content": "<p>La présente Politique de confidentialité peut être modifiée à tout moment. La version publiée sur le site au moment de la consultation fait foi.</p>"
+      },
+      {
+        "heading": "14. contact",
+        "content": "<p>Pour toute demande liée à la confidentialité sur ce site, veuillez utiliser le formulaire de contact disponible sur le <a href=\"/fr#contact\">site</a>.</p>"
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "pageTitle": "Conditions générales | DANIBERT",
+    "pageDescription": "Conditions générales du site DANIBERT.",
+    "title": "Conditions générales",
+    "operator": "Le présent site est exploité par Maxime Danibert, Avenue de Tivoli 26, 1007 Lausanne, Suisse.",
+    "sections": [
+      {
+        "heading": "1. objet du site",
+        "content": "<p>Le présent site fournit des informations générales sur le parcours professionnel, les activités actuelles et les prestations d'advisory de Maxime Danibert.</p><p>Le contenu est publié à titre purement informatif. Rien sur ce site ne constitue un conseil juridique, financier, fiscal, d'investissement ou un autre conseil réglementé.</p>"
+      },
+      {
+        "heading": "2. absence de relation contractuelle",
+        "content": "<p>L'utilisation du site, l'envoi d'un message via le formulaire de contact ou la consultation du contenu ne créent aucune relation contractuelle, fiduciaire, d'advisory ou professionnelle.</p><p>Toute éventuelle collaboration ne peut résulter que d'un accord écrit séparé.</p>"
+      },
+      {
+        "heading": "3. absence d'offre",
+        "content": "<p>Aucun élément du site ne constitue une offre, une sollicitation ou un engagement de fournir des services.</p><p>Toute description d'expérience, d'activités ou de centres d'intérêt est fournie à titre indicatif.</p>"
+      },
+      {
+        "heading": "4. exactitude des informations",
+        "content": "<p>Un soin raisonnable est apporté afin de maintenir des informations exactes et à jour. Toutefois, aucune garantie, expresse ou implicite, n'est donnée quant à l'exhaustivité, l'exactitude, la fiabilité ou l'adéquation du contenu.</p><p>L'exploitant peut modifier, compléter ou supprimer tout contenu à tout moment, sans préavis.</p>"
+      },
+      {
+        "heading": "5. liens externes",
+        "content": "<p>Le site peut contenir des liens vers des sites tiers, publications, plateformes ou pages de réseaux sociaux. Ces liens sont fournis uniquement à titre de commodité.</p><p>L'exploitant n'exerce aucun contrôle sur les contenus tiers et décline toute responsabilité quant à leur disponibilité, leur exactitude, leur légalité ou leurs pratiques en matière de protection des données.</p>"
+      },
+      {
+        "heading": "6. propriété intellectuelle",
+        "content": "<p>Sauf mention contraire, l'ensemble des contenus du site, y compris les textes, la structure, les formulations, les éléments de marque et les matériaux originaux, est protégé par les lois applicables en matière de propriété intellectuelle.</p><p>Toute reproduction, republication, adaptation, diffusion ou utilisation commerciale est interdite sans accord écrit préalable, sauf disposition impérative contraire.</p><p>DANIBERT © 2026. Tous droits réservés.</p>"
+      },
+      {
+        "heading": "7. usage autorisé",
+        "content": "<p>Les utilisateurs s'interdisent de détourner le fonctionnement du site, de tenter d'en perturber l'exploitation, de soumettre un contenu illicite via le formulaire de contact, ou d'utiliser le site à des fins de spam, de scraping, de fraude ou d'abus.</p>"
+      },
+      {
+        "heading": "8. limitation de responsabilité",
+        "content": "<p>Dans les limites autorisées par le droit applicable, l'exploitant exclut toute responsabilité pour les dommages directs, indirects, accessoires, consécutifs ou spéciaux résultant de l'utilisation du site ou de l'impossibilité de l'utiliser.</p><p>Cela inclut notamment les interruptions, erreurs techniques, logiciels malveillants, la confiance accordée au contenu ou les liens vers des tiers.</p><p>Rien dans les présentes Conditions ne limite une responsabilité qui ne peut pas être exclue en vertu du droit impératif.</p>"
+      },
+      {
+        "heading": "9. vie privée et protection des données",
+        "content": "<p>Les données personnelles soumises via le site sont traitées conformément à la <a href=\"/fr/politique-de-confidentialite\">Politique de confidentialité</a> publiée sur ce site.</p>"
+      },
+      {
+        "heading": "10. droit applicable et for",
+        "content": "<p>Les présentes Conditions ainsi que tout litige en relation avec le site sont régis par le droit matériel suisse, à l'exclusion des règles de conflit de lois.</p><p>Sous réserve des dispositions légales impératives, les tribunaux de Lausanne, Vaud, Suisse, sont exclusivement compétents.</p>"
+      },
+      {
+        "heading": "11. modifications",
+        "content": "<p>L'exploitant peut modifier les présentes Conditions à tout moment. La version publiée sur le site au moment de l'utilisation fait foi.</p>"
+      }
+    ]
+  },
+  "meta": {
+    "home": {
+      "title": "Maxime Danibert | advisory",
+      "description": "Fondateur et advisor basé à Lausanne. Accompagnement de sociétés early-stage en immobilier, data et technologie."
+    }
+  }
+}

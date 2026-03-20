@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-bg text-text font-sans leading-relaxed;
+  }
+  img, svg {
+    @apply block max-w-full;
+  }
+  a {
+    @apply text-inherit;
+  }
+  :focus-visible {
+    @apply outline-2 outline-accent outline-offset-2;
+  }
+}
+
+@layer components {
+  .skip-link {
+    @apply absolute left-4 -top-24 z-[9999] bg-accent text-white px-3.5 py-2.5 rounded-lg no-underline;
+  }
+  .skip-link:focus {
+    @apply top-3;
+  }
+}
