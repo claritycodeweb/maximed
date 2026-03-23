@@ -6,7 +6,7 @@ Personal advisory website for Maxime Danibert (danibert.ch). Bilingual (EN/FR) R
 ## Tech stack
 - **Framework**: React 18 + Vite 5
 - **Styling**: Tailwind CSS v3 (utility-first, no separate CSS files)
-- **Routing**: React Router v6 with language-prefixed paths (`/` for EN, `/fr` for FR)
+- **Routing**: React Router v6 with language-prefixed paths (`/` for FR, `/en` for EN)
 - **i18n**: react-i18next with JSON locale files (`src/locales/en.json`, `src/locales/fr.json`)
 - **SEO**: react-helmet-async for meta tags; static `sitemap.xml` and `robots.txt` in `public/`
 - **Deployment**: Vercel with SPA fallback rewrites in `vercel.json`
@@ -30,7 +30,7 @@ public/
 
 ## Key conventions
 - All user-visible text must come from locale JSON files — never hardcode strings.
-- EN is the default/fallback language. FR routes are prefixed with `/fr`.
+- FR is the default/fallback language. EN routes are prefixed with `/en`.
 - Language detection order: URL path > cookie > navigator.
 - Pages use code splitting via `React.lazy` + `Suspense`.
 - Legal pages (Privacy Policy, Terms) store content as HTML strings in locale JSON and render with `dangerouslySetInnerHTML`.

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useStaggerReveal } from '../hooks/useScrollReveal'
 
 const mentions = [
   { date: { en: '8 February 2026', fr: '8 février 2026' }, title: 'Wo Häuser in der Schweiz noch bezahlbar sind', source: 'Watson', href: 'https://www.watson.ch/schweiz/immobilien/441970557-wo-haeuser-in-der-schweiz-noch-bezahlbar-sind' },
@@ -27,20 +28,24 @@ const moreMentions = [
   { date: { en: '8 May 2015', fr: '8 mai 2015' }, title: "Concierge Maps se lance à l'international", source: 'Le Monde Économique', href: 'https://www.monde-economique.ch/concierge-maps-se-lance-a-l-international/' },
 ]
 
-function MentionItem({ mention, lang }) {
+function MentionItem({ mention, lang, animate }) {
   return (
     <a
       href={mention.href}
       rel="noopener noreferrer"
       target="_blank"
-      className="grid grid-cols-[110px_minmax(0,1fr)_auto] max-[920px]:grid-cols-[1fr_auto] gap-[18px] items-start p-[18px_20px] max-[640px]:p-4 bg-surface border border-line rounded-card-sm no-underline transition-all duration-150 hover:-translate-y-px hover:border-line-strong hover:shadow-card"
+      {...(animate ? { 'data-reveal': true } : {})}
+      className={`${animate ? 'reveal' : ''} group relative grid grid-cols-[110px_minmax(0,1fr)_auto] max-[920px]:grid-cols-[1fr_auto] gap-5 items-start p-6 max-[640px]:p-4 bg-surface/80 backdrop-blur-sm border border-line rounded-card-sm no-underline transition-all duration-400 hover:-translate-y-1 hover:border-accent/25 hover:shadow-card overflow-hidden`}
     >
-      <div className="text-[.88rem] text-muted font-semibold max-[920px]:col-span-full">{mention.date[lang]}</div>
-      <div>
-        <div className="m-0 mb-1 text-base font-semibold tracking-[-0.01em]">{mention.title}</div>
-        <div className="text-muted text-[.94rem]">{mention.source}</div>
+      {/* Hover glow */}
+      <div className="absolute inset-0 bg-gradient-to-r from-accent/[.02] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400 pointer-events-none" />
+
+      <div className="relative text-[.82rem] text-accent font-medium tracking-[.03em] max-[920px]:col-span-full">{mention.date[lang]}</div>
+      <div className="relative">
+        <div className="m-0 mb-1.5 text-[.95rem] font-semibold tracking-[-0.01em] group-hover:text-accent transition-colors duration-400">{mention.title}</div>
+        <div className="text-muted-light text-[.85rem] font-light">{mention.source}</div>
       </div>
-      <div aria-hidden="true" className="text-muted text-[1.1rem] leading-[1.2]">↗</div>
+      <div aria-hidden="true" className="relative text-muted-light/40 text-[1rem] leading-[1.2] group-hover:text-accent transition-all duration-400 group-hover:translate-x-1 group-hover:-translate-y-1">↗</div>
     </a>
   )
 }
@@ -49,23 +54,27 @@ export default function MentionsList() {
   const { t, i18n } = useTranslation()
   const [showMore, setShowMore] = useState(false)
   const lang = i18n.language === 'fr' ? 'fr' : 'en'
+  const staggerRef = useStaggerReveal(60)
 
   return (
     <>
-      <div className="grid gap-3.5 mt-[26px]">
-        {mentions.map((m, i) => <MentionItem key={i} mention={m} lang={lang} />)}
+      <div ref={staggerRef} className="grid gap-3 mt-8">
+        {mentions.map((m, i) => <MentionItem key={i} mention={m} lang={lang} animate />)}
       </div>
       {showMore && (
-        <div className="grid gap-3.5 mt-3.5">
+        <div className="grid gap-3 mt-3 animate-fade-up">
           {moreMentions.map((m, i) => <MentionItem key={i} mention={m} lang={lang} />)}
         </div>
       )}
       <button
         aria-expanded={showMore}
         onClick={() => setShowMore(!showMore)}
-        className="mt-[22px] inline-flex items-center gap-2.5 border border-line rounded-full bg-surface px-4 py-3 font-semibold cursor-pointer hover:bg-surface-soft"
+        className="group mt-7 inline-flex items-center gap-3 border border-line rounded-card-sm bg-surface/80 backdrop-blur-sm px-6 py-3.5 font-semibold text-[.9rem] cursor-pointer hover:border-accent/30 hover:text-accent hover:bg-accent-glow transition-all duration-400"
       >
         <span>{showMore ? t('mentions.showLess') : t('mentions.showMore')}</span>
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="2" viewBox="0 0 16 16" className={`w-3.5 h-3.5 transition-transform duration-400 ${showMore ? 'rotate-180' : ''}`}>
+          <path d="M4 6l4 4 4-4" />
+        </svg>
       </button>
     </>
   )

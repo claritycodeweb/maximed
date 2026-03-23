@@ -4,21 +4,21 @@ import { useTranslation } from 'react-i18next'
 const SITE_URL = 'https://www.danibert.ch'
 
 const ALT_PATHS = {
-  en: {
-    home: '',
-    'privacy-policy': '/privacy-policy',
-    'terms-and-conditions': '/terms-and-conditions',
-  },
   fr: {
-    home: '/fr',
-    'privacy-policy': '/fr/politique-de-confidentialite',
-    'terms-and-conditions': '/fr/conditions-generales',
+    home: '',
+    'privacy-policy': '/politique-de-confidentialite',
+    'terms-and-conditions': '/conditions-generales',
+  },
+  en: {
+    home: '/en',
+    'privacy-policy': '/en/privacy-policy',
+    'terms-and-conditions': '/en/terms-and-conditions',
   },
 }
 
 export default function SEO({ page = 'home', title, description, ogType = 'website' }) {
   const { i18n } = useTranslation()
-  const lang = i18n.language === 'fr' ? 'fr' : 'en'
+  const lang = i18n.language === 'en' ? 'en' : 'fr'
   const langFull = lang === 'fr' ? 'fr-CH' : 'en-GB'
   const locale = lang === 'fr' ? 'fr_CH' : 'en_GB'
 
@@ -36,7 +36,7 @@ export default function SEO({ page = 'home', title, description, ogType = 'websi
       <link rel="canonical" href={canonical} />
       <link rel="alternate" hrefLang="en" href={enUrl} />
       <link rel="alternate" hrefLang="fr" href={frUrl} />
-      <link rel="alternate" hrefLang="x-default" href={enUrl} />
+      <link rel="alternate" hrefLang="x-default" href={frUrl} />
       <meta property="og:type" content={ogType} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />

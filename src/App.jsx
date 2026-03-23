@@ -28,7 +28,7 @@ function LanguageSync() {
   const { pathname } = useLocation()
   const { i18n } = useTranslation()
   useEffect(() => {
-    const lang = pathname.startsWith('/fr') ? 'fr' : 'en'
+    const lang = pathname.startsWith('/en') ? 'en' : 'fr'
     if (i18n.language !== lang) {
       i18n.changeLanguage(lang)
     }
@@ -38,7 +38,7 @@ function LanguageSync() {
 
 export default function App() {
   return (
-    <>
+    <div className="grain">
       <ScrollToTop />
       <LanguageSync />
       <a className="skip-link" href="#main">
@@ -48,15 +48,15 @@ export default function App() {
       <main id="main">
         <Suspense fallback={<div className="py-24 text-center text-muted">Loading...</div>}>
           <Routes>
-            {/* English routes */}
+            {/* French routes (default) */}
             <Route path="/" element={<Home />} />
-            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-            <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+            <Route path="/politique-de-confidentialite" element={<PrivacyPolicy />} />
+            <Route path="/conditions-generales" element={<TermsAndConditions />} />
 
-            {/* French routes */}
-            <Route path="/fr" element={<Home />} />
-            <Route path="/fr/politique-de-confidentialite" element={<PrivacyPolicy />} />
-            <Route path="/fr/conditions-generales" element={<TermsAndConditions />} />
+            {/* English routes */}
+            <Route path="/en" element={<Home />} />
+            <Route path="/en/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/en/terms-and-conditions" element={<TermsAndConditions />} />
 
             {/* 404 */}
             <Route path="*" element={<NotFound />} />
@@ -64,6 +64,6 @@ export default function App() {
         </Suspense>
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
