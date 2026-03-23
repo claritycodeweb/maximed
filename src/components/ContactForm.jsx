@@ -24,10 +24,21 @@ export default function ContactForm() {
     }
     setStatus('wait')
     try {
+      const payload = {
+        full_name: form.querySelector('[name="full_name"]')?.value?.trim() ?? '',
+        email: form.querySelector('[name="email"]')?.value?.trim() ?? '',
+        company: form.querySelector('[name="company"]')?.value?.trim() || undefined,
+        message: form.querySelector('[name="message"]')?.value?.trim() ?? '',
+        legal_consent: form.querySelector('#legal-consent')?.checked ?? false,
+        company_website: honeypot?.value?.trim() ?? '',
+      }
       const response = await fetch('/api/contact', {
         method: 'POST',
-        body: new FormData(form),
-        headers: { Accept: 'application/json' },
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
       })
       if (!response.ok) throw new Error('Request failed')
       form.reset()
