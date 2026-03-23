@@ -11,7 +11,7 @@ export default function Header() {
   const { lang, switchLanguage, altLang } = useLanguage()
   const [menuOpen, setMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
-  const basePath = lang === 'fr' ? '/fr' : '/'
+  const basePath = lang === 'en' ? '/en' : '/'
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20)

@@ -10,8 +10,8 @@ export default function ContactForm() {
   const [focused, setFocused] = useState(null)
   const formRef = useRef(null)
 
-  const termsPath = lang === 'fr' ? '/fr/conditions-generales' : '/terms-and-conditions'
-  const privacyPath = lang === 'fr' ? '/fr/politique-de-confidentialite' : '/privacy-policy'
+  const termsPath = lang === 'en' ? '/en/terms-and-conditions' : '/conditions-generales'
+  const privacyPath = lang === 'en' ? '/en/privacy-policy' : '/politique-de-confidentialite'
 
   const handleSubmit = async (e) => {
     e.preventDefault()

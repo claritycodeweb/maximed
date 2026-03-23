@@ -7,8 +7,8 @@ export default function Footer() {
   const { t } = useTranslation()
   const { lang, switchLanguage, altLang } = useLanguage()
 
-  const termsPath = lang === 'fr' ? '/fr/conditions-generales' : '/terms-and-conditions'
-  const privacyPath = lang === 'fr' ? '/fr/politique-de-confidentialite' : '/privacy-policy'
+  const termsPath = lang === 'en' ? '/en/terms-and-conditions' : '/conditions-generales'
+  const privacyPath = lang === 'en' ? '/en/privacy-policy' : '/politique-de-confidentialite'
 
   return (
     <footer className="relative bg-dark text-white/70 overflow-hidden">

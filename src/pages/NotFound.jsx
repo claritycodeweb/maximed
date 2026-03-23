@@ -4,7 +4,7 @@ import { useLanguage } from '../hooks/useLanguage'
 
 export default function NotFound() {
   const { lang } = useLanguage()
-  const homePath = lang === 'fr' ? '/fr' : '/'
+  const homePath = lang === 'en' ? '/en' : '/'
 
   return (
     <>
