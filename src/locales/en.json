@@ -14,58 +14,58 @@
     "eyebrow": "Lausanne, Switzerland",
     "name": "Maxime Danibert",
     "subtitle": "Founder, entrepreneur and advisor",
-    "intro1": "I advise early-stage companies across real estate, data and technology.",
-    "intro2": "My work is grounded in operating experience, long-term perspective and a strong network built in Switzerland since 2008.",
+    "intro1": "I support early-stage entrepreneurs and companies in real estate (physical and proptech), data, technology and marketing, in Switzerland and internationally.",
+    "intro2": "My approach is pragmatic: hands-on experience, long-term thinking, and a multidisciplinary network built in Switzerland since 2008, which I am always happy to open when it makes sense.",
     "cta": "Feel free to get in touch"
   },
   "about": {
     "title": "About",
-    "p1": "I am a French entrepreneur based in Lausanne. Over the years, I have built and operated businesses in real estate, data, media and technology, always with a practical focus on execution, market transparency and useful products.",
-    "p2": "I am particularly interested in helping founders and small teams think more clearly, move faster and avoid mistakes that cost time, money and energy.",
-    "p3": "I enjoy discussing new ideas, business models, product positioning, go-to-market challenges and the rapid evolution of technology and AI."
+    "p1": "Entrepreneur based in Lausanne since 2008, I have founded four companies, raised over CHF 5 million, and built businesses across real estate, data, marketing, media and technology, with a strong focus on execution and simple, genuinely useful products.",
+    "p2": "I help founders and small teams gain clarity, move faster and avoid costly mistakes in time, money and energy, many of which I have made myself over the past fifteen years.",
+    "p3": "I also share reflections on real estate financing, particularly around structures such as viager (sale and leaseback) from an investor perspective, with a focus on ROE and optimising down payments.",
+    "p4": "I am always open to discussing ideas, business models, product positioning and go-to-market challenges. I am also happy to connect the right people when it can create value."
   },
   "advisory": {
     "title": "Advisory",
-    "subtitle": "I generally help on topics such as:",
+    "subtitle": "I typically work on:",
     "items": [
       "strategy and positioning",
-      "product thinking",
+      "product direction",
       "data and market intelligence",
-      "fundraising preparation",
+      "fundraising",
       "commercial clarity",
-      "founder decision-making",
-      "avoiding common early-stage mistakes"
+      "founder decision-making"
     ]
   },
   "approach": {
     "title": "Approach",
     "p1": "My approach is direct, pragmatic and discreet.",
     "p2": "I do not believe in generic frameworks or unnecessary complexity.",
-    "p3": "Useful advice should be grounded in real operating experience, clear thinking and honest conversations."
+    "p3": "Useful advice is grounded in real operational experience, clear thinking and honest conversations."
   },
   "network": {
-    "title": "Network and domains",
-    "intro": "My network and experience are mainly centred around:",
+    "title": "Network and focus areas",
+    "intro": "",
     "domains": [
-      "real estate",
-      "data and digital platforms",
-      "technology",
-      "investors and entrepreneurial ecosystems",
-      "Switzerland"
+      "proptech and real estate data",
+      "digital platforms and technology",
+      "real estate, including viager",
+      "investors",
+      "entrepreneurial ecosystems"
     ]
   },
   "activities": {
     "title": "Current activities"
   },
   "mentions": {
-    "title": "Selected mentions",
-    "intro": "A selection of public articles, interviews and references related to Maxime Danibert, Lookmove and Concierge Maps, ordered by date, most recent first.",
+    "title": "Mentions",
+    "intro": "Selected articles, interviews and public references.",
     "showMore": "Show more",
     "showLess": "Show less"
   },
   "contact": {
     "title": "Contact",
-    "intro": "If you are working on an early-stage project, exploring a new idea, or simply wish to exchange views, feel free to get in touch.",
+    "intro": "If you are working on an early-stage project, exploring a new idea, considering a real estate investment, or simply want to exchange, feel free to get in touch.",
     "formTitle": "Get in touch",
     "fullName": "Full name",
     "email": "Email",

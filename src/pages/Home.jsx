@@ -180,7 +180,8 @@ export default function Home() {
             <div className="max-w-content">
               <p className="m-0 mb-6 text-muted text-[1.02rem] leading-[1.85] font-light">{t('about.p1')}</p>
               <p className="m-0 mb-6 text-muted text-[1.02rem] leading-[1.85] font-light">{t('about.p2')}</p>
-              <p className="m-0 text-muted text-[1.02rem] leading-[1.85] font-light">{t('about.p3')}</p>
+              <p className="m-0 mb-6 text-muted text-[1.02rem] leading-[1.85] font-light">{t('about.p3')}</p>
+              <p className="m-0 text-muted text-[1.02rem] leading-[1.85] font-light">{t('about.p4')}</p>
             </div>
           </div>
         </Container>

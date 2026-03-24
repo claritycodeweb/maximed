@@ -14,44 +14,44 @@
     "eyebrow": "Lausanne, Suisse",
     "name": "Maxime Danibert",
     "subtitle": "Fondateur, entrepreneur et advisor",
-    "intro1": "J'accompagne des entreprises early-stage dans les domaines de l'immobilier, de la data et de la technologie.",
-    "intro2": "Mon approche repose sur l'expérience opérationnelle, une vision long terme et un réseau construit en Suisse depuis 2008.",
+    "intro1": "J'accompagne des entrepreneurs et des entreprises early-stage dans l'immobilier (réel et proptech), la data, la technologie et le marketing, en Suisse et à l'international.",
+    "intro2": "Mon approche est pragmatique : expérience terrain, vision long terme et réseau pluridisciplinaire construit en Suisse depuis 2008, que j'ouvre volontiers lorsque cela fait sens.",
     "cta": "N'hésitez pas à me contacter"
   },
   "about": {
     "title": "À propos",
-    "p1": "Entrepreneur français basé à Lausanne, j'ai créé et développé au fil des années plusieurs activités dans l'immobilier, la data, les médias et la technologie, avec un intérêt constant pour l'exécution, la transparence du marché et les produits réellement utiles.",
-    "p2": "J'aime aider les fondateurs et les petites équipes à penser plus clairement, avancer plus vite et éviter les erreurs qui coûtent du temps, de l'argent et de l'énergie.",
-    "p3": "J'apprécie particulièrement les échanges autour des nouvelles idées, des modèles économiques, du positionnement produit, des enjeux go-to-market, ainsi que de l'évolution très rapide de la technologie et de l'IA."
+    "p1": "Entrepreneur basé à Lausanne depuis 2008, j'ai fondé quatre sociétés, levé plus de CHF 5 millions et développé des activités dans l'immobilier, la data, le marketing, les médias et la technologie, avec un accent constant sur l'exécution et la création de produits simples et réellement utiles.",
+    "p2": "J'aide les fondateurs et les petites équipes à gagner en clarté, avancer plus vite et éviter des erreurs coûteuses en temps, en argent et en énergie, erreurs que j'ai moi-même faites au cours des quinze dernières années.",
+    "p3": "Je partage également des pistes de réflexion autour du viager (sale and leaseback) côté investisseur, avec un focus sur le ROE et l'optimisation des fonds propres.",
+    "p4": "J'échange volontiers sur les idées, les modèles économiques, le positionnement produit et les enjeux go-to-market. Je suis également toujours partant pour connecter les bonnes personnes entre elles lorsque cela peut créer de la valeur."
   },
   "advisory": {
     "title": "Advisory",
-    "subtitle": "J'interviens le plus souvent sur des sujets comme :",
+    "subtitle": "J'interviens principalement sur :",
     "items": [
       "stratégie et positionnement",
-      "réflexion produit",
+      "direction produit",
       "data et intelligence marché",
-      "préparation à la levée de fonds",
+      "levée de fonds",
       "clarté commerciale",
-      "prise de décision du fondateur",
-      "évitement des erreurs classiques en phase early-stage"
+      "prise de décision du fondateur"
     ]
   },
   "approach": {
     "title": "Approche",
     "p1": "Mon approche est directe, pragmatique et discrète.",
     "p2": "Je ne crois ni aux frameworks génériques ni à la complexité inutile.",
-    "p3": "Un conseil utile doit être fondé sur une vraie expérience opérationnelle, une pensée claire et des échanges honnêtes."
+    "p3": "Un conseil utile repose sur une expérience réelle, une pensée claire et des échanges honnêtes."
   },
   "network": {
     "title": "Réseau et domaines",
-    "intro": "Mon réseau et mon expérience se situent principalement autour de :",
+    "intro": "",
     "domains": [
-      "immobilier",
-      "data et plateformes digitales",
-      "technologie",
-      "investisseurs et écosystèmes entrepreneuriaux",
-      "Suisse"
+      "proptech et data immobilière",
+      "plateformes digitales et technologie",
+      "immobilier, y compris viager",
+      "investisseurs",
+      "écosystèmes entrepreneuriaux"
     ]
   },
   "activities": {
@@ -59,13 +59,13 @@
   },
   "mentions": {
     "title": "Mentions",
-    "intro": "Une sélection d'articles, d'interviews et de références publiques liés à Maxime Danibert, Lookmove et Concierge Maps, classés par date, du plus récent au plus ancien.",
+    "intro": "Sélection d'articles, d'interviews et de références publiques.",
     "showMore": "Voir plus",
     "showLess": "Voir moins"
   },
   "contact": {
     "title": "Contact",
-    "intro": "Si vous travaillez sur un projet early-stage, explorez une nouvelle idée ou souhaitez simplement échanger, n'hésitez pas à me contacter.",
+    "intro": "Si vous travaillez sur un projet early-stage, explorez une nouvelle idée, un projet d’investissement immobilier ou souhaitez simplement échanger, n’hésitez pas à me contacter. ",
     "formTitle": "Me contacter",
     "fullName": "Nom complet",
     "email": "Email",
