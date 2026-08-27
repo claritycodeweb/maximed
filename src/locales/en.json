@@ -84,15 +84,23 @@
   },
   "footer": {
     "copy": "DANIBERT © 2026",
-    "address": "Avenue de Tivoli 26, 1007 Lausanne, Switzerland",
     "terms": "Terms and Conditions",
     "privacy": "Privacy Policy"
+  },
+  "legal": {
+    "form": "Sole proprietorship",
+    "name": "DANIBERT",
+    "street": "Route des Acacias 8",
+    "locality": "CH-1227 Les Acacias / Carouge, Switzerland",
+    "ide": "IDE: CHE-229.130.771",
+    "chId": "CH-ID: CH-550-1255993-1",
+    "ofrcId": "OFRC-ID: 1745336"
   },
   "privacyPolicy": {
     "pageTitle": "Privacy Policy | DANIBERT",
     "pageDescription": "Privacy Policy for the DANIBERT website.",
     "title": "Privacy Policy",
-    "controller": "Data controller: Maxime Danibert, Avenue de Tivoli 26, 1007 Lausanne, Switzerland.",
+    "controller": "Data controller: Maxime Danibert",
     "sections": [
       {
         "heading": "1. scope",
@@ -148,7 +156,7 @@
       },
       {
         "heading": "14. contact",
-        "content": "<p>For privacy-related requests concerning this website, please use the contact form available on the <a href=\"/#contact\">website</a>.</p>"
+        "content": "<p>For privacy-related requests concerning this website, please use the contact form available on the <a href=\"/en#contact\">website</a>.</p>"
       }
     ]
   },
@@ -156,7 +164,7 @@
     "pageTitle": "Terms and Conditions | DANIBERT",
     "pageDescription": "Terms and Conditions for the DANIBERT website.",
     "title": "Terms and Conditions",
-    "operator": "This website is operated by Maxime Danibert, Avenue de Tivoli 26, 1007 Lausanne, Switzerland.",
+    "operator": "This website is operated by Maxime Danibert",
     "sections": [
       {
         "heading": "1. purpose of the website",
@@ -192,7 +200,7 @@
       },
       {
         "heading": "9. privacy and data protection",
-        "content": "<p>Personal data submitted through the website are processed in accordance with the <a href=\"/privacy-policy\">Privacy Policy</a> published on this website.</p>"
+        "content": "<p>Personal data submitted through the website are processed in accordance with the <a href=\"/en/privacy-policy\">Privacy Policy</a> published on this website.</p>"
       },
       {
         "heading": "10. applicable law and jurisdiction",
