@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useLanguage } from '../hooks/useLanguage'
 import SocialLinks from './SocialLinks'
+import LegalEntity from './LegalEntity'
 
 export default function Footer() {
   const { t } = useTranslation()
@@ -24,7 +25,7 @@ export default function Footer() {
           <div className="flex items-start justify-between gap-10 flex-wrap mb-16">
             <div>
               <div className="text-[.78rem] tracking-[.36em] uppercase text-white font-bold mb-4">DANIBERT</div>
-              <div className="text-white/40 text-[.9rem] leading-relaxed max-w-[240px]">{t('footer.address')}</div>
+              <LegalEntity showName={false} className="text-white/40 text-[.9rem] leading-relaxed max-w-[300px]" />
             </div>
             <SocialLinks dark />
           </div>

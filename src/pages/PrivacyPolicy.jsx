@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import SEO from '../hooks/useSEO'
+import LegalEntity from '../components/LegalEntity'
 
 export default function PrivacyPolicy() {
   const { t } = useTranslation()
@@ -18,6 +19,7 @@ export default function PrivacyPolicy() {
         <div className="w-[min(100%-40px,1120px)] max-[640px]:w-[min(100%-28px,1120px)] mx-auto">
           <h1 className="m-0 mb-3.5 text-[clamp(2rem,4vw,3rem)] leading-[1.06] tracking-[-0.03em]">{t('privacyPolicy.title')}</h1>
           <p className="m-0 w-[min(100%,760px)] text-muted">{t('privacyPolicy.controller')}</p>
+          <LegalEntity className="mt-4 text-muted text-[.95rem] leading-[1.65]" />
         </div>
       </section>
 

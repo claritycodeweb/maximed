@@ -84,15 +84,23 @@
   },
   "footer": {
     "copy": "DANIBERT © 2026",
-    "address": "Avenue de Tivoli 26, 1007 Lausanne, Suisse",
     "terms": "Conditions générales",
     "privacy": "Politique de confidentialité"
+  },
+  "legal": {
+    "form": "Entreprise individuelle",
+    "name": "DANIBERT",
+    "street": "Route des Acacias 8",
+    "locality": "CH-1227 Les Acacias / Carouge, Suisse",
+    "ide": "IDE: CHE-229.130.771",
+    "chId": "CH-ID: CH-550-1255993-1",
+    "ofrcId": "OFRC-ID: 1745336"
   },
   "privacyPolicy": {
     "pageTitle": "Politique de confidentialité | DANIBERT",
     "pageDescription": "Politique de confidentialité du site DANIBERT.",
     "title": "Politique de confidentialité",
-    "controller": "Responsable du traitement: Maxime Danibert, Avenue de Tivoli 26, 1007 Lausanne, Suisse.",
+    "controller": "Responsable du traitement: Maxime Danibert",
     "sections": [
       {
         "heading": "1. champ d'application",
@@ -148,7 +156,7 @@
       },
       {
         "heading": "14. contact",
-        "content": "<p>Pour toute demande liée à la confidentialité sur ce site, veuillez utiliser le formulaire de contact disponible sur le <a href=\"/fr#contact\">site</a>.</p>"
+        "content": "<p>Pour toute demande liée à la confidentialité sur ce site, veuillez utiliser le formulaire de contact disponible sur le <a href=\"/#contact\">site</a>.</p>"
       }
     ]
   },
@@ -156,7 +164,7 @@
     "pageTitle": "Conditions générales | DANIBERT",
     "pageDescription": "Conditions générales du site DANIBERT.",
     "title": "Conditions générales",
-    "operator": "Le présent site est exploité par Maxime Danibert, Avenue de Tivoli 26, 1007 Lausanne, Suisse.",
+    "operator": "Le présent site est exploité par Maxime Danibert",
     "sections": [
       {
         "heading": "1. objet du site",
@@ -192,7 +200,7 @@
       },
       {
         "heading": "9. vie privée et protection des données",
-        "content": "<p>Les données personnelles soumises via le site sont traitées conformément à la <a href=\"/fr/politique-de-confidentialite\">Politique de confidentialité</a> publiée sur ce site.</p>"
+        "content": "<p>Les données personnelles soumises via le site sont traitées conformément à la <a href=\"/politique-de-confidentialite\">Politique de confidentialité</a> publiée sur ce site.</p>"
       },
       {
         "heading": "10. droit applicable et for",

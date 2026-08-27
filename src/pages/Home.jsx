@@ -68,15 +68,16 @@ export default function Home() {
             '@graph': [
               {
                 '@type': 'Person',
-                '@id': `https://www.danibert.ch/${lang === 'fr' ? 'fr/' : ''}#person`,
+                '@id': `https://www.danibert.ch/${lang === 'fr' ? '' : 'en/'}#person`,
                 name: 'Maxime Danibert',
-                url: `https://www.danibert.ch/${lang === 'fr' ? 'fr/' : ''}`,
+                url: `https://www.danibert.ch/${lang === 'fr' ? '' : 'en/'}`,
                 jobTitle: t('hero.subtitle'),
                 address: {
                   '@type': 'PostalAddress',
-                  streetAddress: 'Avenue de Tivoli 26',
-                  postalCode: '1007',
-                  addressLocality: 'Lausanne',
+                  streetAddress: 'Route des Acacias 8',
+                  postalCode: '1227',
+                  addressLocality: 'Carouge',
+                  addressRegion: 'GE',
                   addressCountry: 'CH',
                 },
                 sameAs: [
@@ -89,7 +90,7 @@ export default function Home() {
               {
                 '@type': 'WebSite',
                 '@id': 'https://www.danibert.ch/#website',
-                url: `https://www.danibert.ch/${lang === 'fr' ? 'fr/' : ''}`,
+                url: `https://www.danibert.ch/${lang === 'fr' ? '' : 'en/'}`,
                 name: 'DANIBERT',
                 inLanguage: lang === 'fr' ? 'fr-CH' : 'en-GB',
               },
@@ -284,8 +285,8 @@ export default function Home() {
             <div className="hidden max-[920px]:hidden min-[921px]:block">
               <div className="text-[.92rem] text-muted font-light">
                 <div className="font-semibold text-text mb-1.5 font-normal text-[.95rem]">Maxime Danibert</div>
-                <div className="mb-0.5">Avenue de Tivoli 26</div>
-                <div>1007 Lausanne, Switzerland</div>
+                <div className="mb-0.5">{t('legal.street')}</div>
+                <div>{t('legal.locality')}</div>
               </div>
             </div>
           </div>
